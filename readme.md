@@ -5,8 +5,12 @@ Course follow-along by Shaun Wassell on linkedin learning
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-
+- [Intro](#intro)
+- [Authentication basics](#authentication-basics)
+  - [What is user authentication?](#what-is-user-authentication)
+  - [Project setup](#project-setup)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
