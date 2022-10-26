@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import {useEffect, useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 
 export const UserInfoPage = () => {
     // We'll use the history to navigate the user
     // programmatically later on (we're not using it yet)
-    const history = useHistory();
+    const navigate = useNavigate();
 
     // These states are bound to the values of the text inputs
-    // on the page (see JSX below). 
+    // on the page (see JSX below).
     const [favoriteFood, setFavoriteFood] = useState('');
     const [hairColor, setHairColor] = useState('');
     const [bio, setBio] = useState('');
@@ -42,13 +42,13 @@ export const UserInfoPage = () => {
         // and send them to the "login page"
         alert('Log out functionality not implemented yet');
     }
-    
+
     const resetValues = () => {
         // Reset the text input values to
         // their starting values (the data we loaded from the server)
         alert('Reset functionality not implemented yet');
     }
-    
+
     // And here we have the JSX for our component. It's pretty straightforward
     return (
         <div className="content-container">
